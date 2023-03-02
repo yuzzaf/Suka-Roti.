@@ -199,7 +199,6 @@ body {
 }
 
 .about .personal .personal-img {
-  flex: 60rem;
   padding-bottom: 1rem;
   text-align: center;
 }
@@ -422,5 +421,17 @@ footer .credit a {
     flex: 1 1 50rem;
     padding-bottom: 1rem;
     text-align: center;
+  }
+
+  .about .personal .personal-img img {
+    width: 100%;
+  }
+
+  .about .blog .personal-text p {
+    font-size: 1rem;
+  }
+
+  .about .personal .personal-img h2 {
+    font-size: 1rem;
   }
 }
